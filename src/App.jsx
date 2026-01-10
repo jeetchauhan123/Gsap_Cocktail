@@ -1,9 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { ScrollTrigger, SplitText } from 'gsap/all'
 import gsap from 'gsap'
+import GsapTo from './gsap/GsapTo';
+import GsapFrom from './gsap/GsapFrom';
+import GsapFromTo from './gsap/GsapFromTo';
+import Timeline from './gsap/Timeline';
+import GsapStagger from './gsap/GsapStagger';
+import ScrollTriger from './gsap/ScrollTriger';
+import GsapText from './gsap/GsapText';
+
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
