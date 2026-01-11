@@ -1,14 +1,8 @@
 import './App.css'
 import { ScrollTrigger, SplitText } from 'gsap/all'
 import gsap from 'gsap'
-import GsapTo from './gsap/GsapTo';
-import GsapFrom from './gsap/GsapFrom';
-import GsapFromTo from './gsap/GsapFromTo';
-import Timeline from './gsap/Timeline';
-import GsapStagger from './gsap/GsapStagger';
-import ScrollTriger from './gsap/ScrollTriger';
-import GsapText from './gsap/GsapText';
 
+import Navbar from './components/Navbar';
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -26,10 +20,19 @@ function App() {
     //     <GsapText />
     //   </div>
     // </>
-    <div className='flex-center h-screen'>
-      <h1 className='text-3xl text-indigo-500'>Hello, GSAP!</h1>
-    </div>
+    <main>
+      <Navbar />
+    </main>
   )
 }
 
 export default App
+
+
+// import GsapTo from './gsap/GsapTo';
+// import GsapFrom from './gsap/GsapFrom';
+// import GsapFromTo from './gsap/GsapFromTo';
+// import Timeline from './gsap/Timeline';
+// import GsapStagger from './gsap/GsapStagger';
+// import ScrollTriger from './gsap/ScrollTriger';
+// import GsapText from './gsap/GsapText';
