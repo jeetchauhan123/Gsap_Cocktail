@@ -1,16 +1,155 @@
-# React + Vite
+# 🍸 Velvet Pour – GSAP Cocktail Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually rich, animation-driven mocktail & cocktail website built with **React + Vite** and powered by **GSAP**.  
+Velvet Pour delivers a premium bar-style experience with smooth scroll animations, cinematic transitions, and a modern UI inspired by high-end cocktail lounges.
 
-Currently, two official plugins are available:
+Crafted for learning, experimentation, and showcasing advanced GSAP animations in a real-world style project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔗 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+👉 https://jeetchauhan123.github.io/Gsap_Cocktail/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🍹 Luxury mocktail & cocktail bar UI
+- 🎬 GSAP-powered animations
+  - Scroll-based parallax effects
+  - SplitText character & line animations
+  - Image and content reveal transitions
+  - Scroll-scrubbed video playback
+- 📱 Fully responsive (mobile & desktop)
+- 🎨 Modern bar-style aesthetic with noise textures
+- 🧭 Smooth in-page navigation
+- ⚡ Built with Vite for fast development
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+- GSAP
+- @gsap/react
+- react-responsive
+
+### Tooling & Deployment
+- GitHub Pages
+- gh-pages
+- ESLint
+
+---
+
+## 📁 Project Structure
+
+constants/
+public/
+ ├── images/
+ ├── videos/
+ └── fonts/
+src/
+ ├── components/
+ │   ├── Navbar.jsx
+ │   ├── Hero.jsx
+ │   ├── Cocktails.jsx
+ │   ├── Menu.jsx
+ │   ├── About.jsx
+ │   ├── Art.jsx
+ │   └── Contacts.jsx
+ ├── App.jsx
+ └── main.jsx
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+git clone https://github.com/jeetchauhan123/Gsap_Cocktail.git
+
+### Install dependencies
+
+npm install
+
+### Run the development server
+
+npm run dev
+
+The app will be available at:
+
+http://localhost:5173
+
+---
+
+## 📦 Build for Production
+
+npm run build
+
+---
+
+## 🌍 Deploy to GitHub Pages
+
+This project uses gh-pages for deployment.
+
+npm run deploy
+
+Deployment details:
+- Branch: gh-pages
+- Output folder: dist
+- Base path configured for GitHub Pages
+
+---
+
+## 🖼 Media & Assets
+
+- All images, videos, and fonts are stored in the public/ directory
+- Assets are referenced using a GitHub Pages–safe base path:
+
+/Gsap_Cocktail/
+
+- Media content is sourced from a YouTube tutorial and used for educational purposes only
+
+---
+
+## 🧠 GSAP Animations Used
+
+- ScrollTrigger
+- SplitText
+- Timeline-based animations
+- Scroll-scrubbed video animation
+- Parallax leaf and background effects
+
+This project is ideal for developers looking to:
+- Learn GSAP with React
+- Build scroll-driven UI experiences
+- Practice advanced animation techniques
+
+---
+
+## ⚠️ Disclaimer
+
+This project is created for learning and practice purposes only.  
+All design inspiration and media assets belong to their respective creators.
+
+---
+
+## 👤 Author
+
+Jeet Chauhan  
+FullStack Developer | React & Animation Enthusiast
+
+---
+
+## ⭐ Support
+
+If you like this project:
+- Star the repository
+- Fork it
+- Share it with fellow developers
+
+Sip slow. Animate smoothly. Welcome to Velvet Pour 🍹
