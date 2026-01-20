@@ -47,22 +47,24 @@ Crafted for learning, experimentation, and showcasing advanced GSAP animations i
 
 ## 📁 Project Structure
 
+```text
 constants/
 public/
- ├── images/
- ├── videos/
- └── fonts/
+├── images/
+├── videos/
+└── fonts/
 src/
- ├── components/
- │   ├── Navbar.jsx
- │   ├── Hero.jsx
- │   ├── Cocktails.jsx
- │   ├── Menu.jsx
- │   ├── About.jsx
- │   ├── Art.jsx
- │   └── Contacts.jsx
- ├── App.jsx
- └── main.jsx
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Cocktails.jsx
+│   ├── Menu.jsx
+│   ├── About.jsx
+│   ├── Art.jsx
+│   └── Contacts.jsx
+├── App.jsx
+└── main.jsx
+```
 
 ---
 
