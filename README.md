@@ -71,17 +71,17 @@ src/
 ## 🚀 Getting Started
 
 ### Clone the repository
-
+```
 git clone https://github.com/jeetchauhan123/Gsap_Cocktail.git
-
+```
 ### Install dependencies
-
+```
 npm install
-
+```
 ### Run the development server
-
+```
 npm run dev
-
+```
 The app will be available at:
 
 http://localhost:5173
@@ -89,9 +89,9 @@ http://localhost:5173
 ---
 
 ## 📦 Build for Production
-
+```
 npm run build
-
+```
 ---
 
 ## 🌍 Deploy to GitHub Pages
